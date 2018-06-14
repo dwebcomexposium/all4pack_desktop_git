@@ -1155,7 +1155,7 @@ body:not(.lp-univers) .quicklinks:not(.quicklinks-navigation) .ql-list li + li {
 
 .article-wrapper .at-publication { display: none; }
 
-.article-wrapper .fr { float: right; width: 460px; margin: 0 0 65px 50px; }
+.article-wrapper .fr { float: right; margin: 0 0 65px 50px; }
 .article-wrapper .fr img { display: block; width: 100%; height: auto; }
 
 .article-wrapper .style1 { display: -ms-flexbox; display: flex; -ms-flex-flow: row wrap; flex-flow: row wrap; padding-top: 50px; margin: 0 0 70px; }
@@ -1639,3 +1639,4 @@ body:not(.lp-univers) .quicklinks:not(.quicklinks-navigation) .ql-list li + li {
 .is-mac .socials .socials__tag { padding: 6px 11px 2px; text-align: center; }
 .is-mac .section-creativity .section__tag { line-height: 36px; }
 .is-mac.lp-univers .univers .ql-list a { padding: 4px 20px 3px; }
+	
