@@ -1,7 +1,7 @@
 var $win                   = $(window);
 var $header                = $('.site-banner');
 var $socials               = $('.socials--sticky');
-var $animate               = $('.section-head, .secteurs, .decouvrez, .section-head, .secteurs, .decouvrez, .gla-item-title, .catal-ex-item, .youmax-small-container, .section__head');
+var $animate               = $('.section-head, .secteurs, .decouvrez, .section-head, .secteurs, .decouvrez, .gla-item-title, .catal-ex-item, .youmax-small-container, .section__head, .full .article-title');
 var $wrappedItems          = $('.la-item-img, .at-illust, .center img');
 var $wrappedText           = $('.at-main-title, .article-wrapper h4');
 var newsletterPlaceholders = {
@@ -13,6 +13,19 @@ var newsletterPlaceholders = {
  * Detect Mac
  */
 $('body').toggleClass('is-mac', navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false);
+
+/*
+ * Change newsletter placeholder
+ */
+$('.nf-form-txt').attr('placeholder', newsletterPlaceholders[$('html').attr('lang')]);
+
+$('.optin-container .nf-form-input input').after('<span></span>');
+
+$('.newsletter-form .optin-container .nf-form-input').on('click', function() {
+	var $check = $(this).find('input');
+
+	$check.prop('checked', !$check.is(':checked'));
+});
 
 /*
  * Animate
