@@ -12,7 +12,9 @@ var newsletterPlaceholders = {
 /*
  * Detect Mac
  */
-$('body').toggleClass('is-mac', navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false);
+$('body')
+	.toggleClass('is-mac', navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false)
+	.toggleClass('is-ie', navigator.userAgent.indexOf('MSIE ') > -1 || navigator.userAgent.indexOf('Trident/') > -1 ? true : false);
 
 /*
  * Change newsletter placeholder
