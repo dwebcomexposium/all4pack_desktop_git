@@ -525,7 +525,13 @@ body:not(.front):not(.content396097):not(.content397298):not(.lp-univers) .globa
 .intro-alt h2 { font-family: 'Neo Sans Pro', sans-serif !important; font-size: 33px; color: #1c294b; text-transform: uppercase; margin: 0 0 19px; }
 
 .intro-alt .socials { position: absolute; bottom: 0; left: 0; padding: 42px 43px; z-index: 3; }
-.intro-alt .intro__video { display: block; width: 100%; height: 100%; min-width: 100%; min-height: 100%; object-fit: cover; }
+.intro-alt .intro__video { display: block; min-width: 100%; min-height: 100%; object-fit: cover; }
+.is-ie .intro-alt .intro__video { position: relative; min-width: 150%; min-height: 150%; top: 50%; left: 50%; 
+    -webkit-transform: translate(-50%, -50%); 
+        -ms-transform: translate(-50%, -50%); 
+         -o-transform: translate(-50%, -50%); 
+            transform: translate(-50%, -50%); 
+}
 .intro-alt .intro__content { position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; z-index: 2; }
 .intro-alt .intro__video-container { position: absolute; width: 100%; height: 100%; top: 0; left: 0; overflow: hidden; }
 
@@ -950,7 +956,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.lp-univers) .globa
 .videos { max-width: 1170px !important; margin: 0 auto; }
 
 .videos #tiles { display: -ms-flexbox; display: flex; height: auto !important; margin: 0 -15px; }
-.videos #tiles .youmax-grid-item { position: relative !important; display: block; maw-width: 25%; -ms-flex: 0 0 25%; flex: 0 0 25%; left: 0 !important; padding: 0 15px; margin: 0; }
+.videos #tiles .youmax-grid-item { position: relative !important; display: block; max-width: 25%; -ms-flex: 0 0 25%; flex: 0 0 25%; left: 0 !important; padding: 0 15px; margin: 0; }
 .videos #tiles .youmax-grid-item > * { width: 100%; margin: 0; }
 .videos #tiles .youmax-grid-item .youmax-duration { position: absolute; width: auto; top: 118px; right: 26px; left: auto; font-size: 18px; letter-spacing: 0.03em; color: #fff; }
 .videos #tiles .youmax-grid-item .youmax-play-overlay { position: absolute; display: block !important; width: 100%; height: 100%; top: 0; left: 0; pointer-events: none; }
@@ -991,7 +997,7 @@ body:not(.lp-univers) .quicklinks:not(.quicklinks-navigation) .ql-list li + li {
 
 .cols { display: -ms-flexbox; display: flex; -ms-flex-flow: row wrap; flex-flow: row wrap; margin: 0 -1vw; }
 
-.col { max-width: 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; padding: 0 1vw; margin-bottom: 2vw; }
+.col { display: block !important; max-width: 100%; -ms-flex: 1 1 100%; flex: 1 1 100%; padding: 0 1vw; margin-bottom: 2vw; }
 .col--1of2 { max-width: 50%; -ms-flex: 0 0 50%; flex: 0 0 50%; }
 .col--size-1 { max-width: 33.3%; -ms-flex: 0 0 33.3%; flex: 0 0 33.3%; }
 .col--size-2 { max-width: 16.7%; -ms-flex: 0 0 16.7%; flex: 0 0 16.7%; }
@@ -1502,7 +1508,7 @@ body:not(.lp-univers) .quicklinks:not(.quicklinks-navigation) .ql-list li + li {
 .content396097 .zone .quicklinks:not(.quicklinks-navigation):not(.secteurs):not(.decouvrez) i { display: inline-block; margin-right: 19px; vertical-align: middle; background-size: 100% 100%; }
 
 .content397298 .zone .quicklinks:not(.quicklinks-navigation):not(.secteurs):not(.decouvrez) .btn-primary,
-.content396097 .zone .quicklinks:not(.quicklinks-navigation):not(.secteurs):not(.decouvrez) .btn-primary { position: relative; display: -ms-flexbox; display: flex; -ms-flex: 0 0 100%; flex: 0 0 100%; -ms-flex-align: center; align-items: center; padding: 17px 30px 19px; border: 1px solid #eaeef2; border-radius: 0; box-shadow: none; font-size: 13px; line-height: 1.08; font-style: normal; }
+.content396097 .zone .quicklinks:not(.quicklinks-navigation):not(.secteurs):not(.decouvrez) .btn-primary { position: relative; display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; padding: 17px 30px 19px; border: 1px solid #eaeef2; border-radius: 0; box-shadow: none; font-size: 13px; line-height: 1.08; font-style: normal; }
 
 .content397298 .zone .quicklinks:not(.quicklinks-navigation):not(.secteurs):not(.decouvrez) .btn-primary:hover:before,
 .content396097 .zone .quicklinks:not(.quicklinks-navigation):not(.secteurs):not(.decouvrez) .btn-primary:hover:before { -ms-transform: scale(1); transform: scale(1); opacity: 1; }
