@@ -283,7 +283,7 @@ dl { padding: 0; margin: 0; list-style-type: none; }
 .newsletter-form .nf-title { font-size: 23px; line-height: 1.26; font-weight: 300; color: #1c294b; margin-bottom: 17px; }
 .newsletter-form .nf-main-content { padding: 0; margin: 0; background: none; }
 
-.newsletter-form .btn-primary { position: absolute; height: 35px; right: 16px; bottom: 51px; padding: 0 17px; border: 0; border-radius: 35px; font-size: 15px; line-height: 35px; font-weight: 500; letter-spacing: 0.07em; font-style: italic; color: #1c294b; background: #fcd139; }
+.newsletter-form .btn-primary { position: absolute; height: 35px; right: 16px; top: 104px; padding: 0 17px; border: 0; border-radius: 35px; font-size: 15px; line-height: 35px; font-weight: 500; letter-spacing: 0.07em; font-style: italic; color: #1c294b; background: #fcd139; }
 .newsletter-form .btn-primary:after { content: ''; display: inline-block; position: relative; width: 23px; height: 10px; top: -1px; margin-left: 4px; vertical-align: middle; background-image: url(images/ico-arrow-right.svg); background-size: 100% 100%; transition: transform .3s; }
 .newsletter-form .btn-primary:hover { color: #1c294b; background: #fcd139; }
 .newsletter-form .btn-primary:hover:after { -ms-transform: translateX(5px); transform: translateX(5px); }
