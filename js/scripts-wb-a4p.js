@@ -1,7 +1,7 @@
 var $win                   = $(window);
 var $header                = $('.site-banner');
 var $socials               = $('.socials--sticky');
-var $animate               = $('.section-head, .secteurs, .decouvrez, .section-head, .secteurs, .decouvrez, .gla-item-title, .catal-ex-item, .youmax-small-container, .section__head, .full .article-title');
+var $animate               = $('.section-head, .secteurs, .decouvrez, .section-head, .secteurs, .decouvrez, .gla-item-title, .catal-ex-item, .youmax-small-container, .full .article-title');
 var $wrappedItems          = $('.la-item-img, .at-illust, .center img');
 var $wrappedText           = $('.at-main-title, .article-wrapper h4');
 var newsletterPlaceholders = {
