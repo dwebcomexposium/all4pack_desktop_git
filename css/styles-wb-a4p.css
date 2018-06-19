@@ -1673,7 +1673,7 @@ body.catalogue #zone3 { position: relative; right: 0; top:0; z-index: 999; float
 body.catalogue #zone3.top { top: 0px; }
 body.catalogue #zone3 .catal-nav-affix { display: none; }
 body.catalogue .edito.catalogue .mod-catal .inside {padding: 0 0 30px 0;}
-.catalogue .layout-2-col {width: 1170px; margin: auto;  /*padding: 44px 40px 0;*/ }
+.catalogue .layout-2-col {/*width: 1170px; margin: auto; */ /*padding: 44px 40px 0;*/ }
 .catalogue #zone2 {/*width: 740px;*/ float: left; }
 
 .catalogue .mod-catal a { color : #6cc1bd; }
@@ -2108,8 +2108,8 @@ a.btn-primary.btn-medium {float: right; }
  .catalogue .mod-catal .esf-tree .esf-has-sub-items > .esf-choice-container .esf-next-lvl:hover::after, .catalogue .mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl:hover .icon-catal-arrow-left { background-color: #6cc1bd;  }
  .catalogue .mod-catal .esf-tree .esf-has-sub-items > .esf-choice-container .esf-next-lvl::after, .catalogue .mod-catal .esf-as-heading .esf-remove-filters, .catalogue .mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl .icon-catal-arrow-left::before, .catalogue .mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl .icon-catal-arrow-left::before { color: #6cc1bd;  }
 
-.catalogue .btn-primary:before {background-image: none; }
-.catalogue .btn-primary {background: #fff; color: #1c294b!important; }
+.catalogue .mod-catal .btn-primary:before {background-image: none; }
+.catalogue .mod-catal .btn-primary {background: #fff; color: #1c294b!important; }
 
 
 button.js-mySelection:hover {border: 1px solid #6cc1bd!important; }
