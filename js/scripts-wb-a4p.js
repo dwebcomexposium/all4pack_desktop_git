@@ -118,7 +118,7 @@ if ($('#youmax').length) {
 		channel: '',
 		youtube_playlist_videos: [{
 			name: 'Videos',
-			url: 'https://www.youtube.com/watch?v=5Tpjlmy4wsk&list=PLZqovFqfp6OiS0aRnGZ9CKHOXNuJZnPFD',
+			url: 'https://www.youtube.com/watch?v=5Tpjlmy4wsk&list=PLZqovFqfp6OjDQC0aAvLGg-SyudWaymkT',
 			selected: true
 		}],
 		loadMode: 'paginate-sides',
