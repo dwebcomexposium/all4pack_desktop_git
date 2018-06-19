@@ -1335,10 +1335,10 @@ p.important1 {display: inline-block; background-color:#fed545 ; padding: 7px 15p
 
 .full .article-title .inside { display: block; }
 
-.full .article-title .inside { max-width: 100vw; min-width: 1280px; width: 100vw; min-width: 1280px; left: 50%; -ms-transform: translateX(-50%); transform: translateX(-50%); border-radius: 0; }
-.full .article-title .inside:before { width: 100%; height: 100%; top: 0; left: 0; right: auto; bottom: auto; border: 0; box-shadow: none; background: rgba(0, 0, 0, 0.4); }
-.full .article-title .inside:after { display: none; }
-.full .article-title .inside img { width: 100%; margin: 0; border-radius: 0; }
+.full .article-title .container { max-width: 100vw; min-width: 1280px; width: 100vw; min-width: 1280px; left: 50%; -ms-transform: translateX(-50%); transform: translateX(-50%); border-radius: 0; }
+.full .article-title .container:before { width: 100%; height: 100%; top: 0; left: 0; right: auto; bottom: auto; border: 0; box-shadow: none; background: rgba(0, 0, 0, 0.4); }
+.full .article-title .container:after { display: none; }
+.full .article-title .container img { width: 100%; margin: 0; border-radius: 0; }
 
 /* ------------------------------------------------------------ *\
     Social Sharing
