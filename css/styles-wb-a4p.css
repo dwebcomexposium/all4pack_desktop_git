@@ -320,6 +320,7 @@ dl { padding: 0; margin: 0; list-style-type: none; }
 
 .main-navigation .mn-item-lvl-1 > .mn-link { position: relative; min-height: 0; padding: 0; font-size: 16px; font-weight: 600; letter-spacing: 0.07em; font-style: italic; color: #1c294b; background: none; }
 .main-navigation .mn-item-lvl-1 > .mn-link:before { content: ''; position: absolute; width: 17px; height: 1px; bottom: -5px; left: -8px; box-shadow: 0 0 7px rgba(255, 210, 49, 0.63); background: #fcd139; transition: width .3s; }
+.main-navigation .mn-item-lvl-1 > .mn-link:after { content: ''; position: absolute; width: 100%; top: 100%; left: 0; height: 20px; }
 .main-navigation .mn-item-lvl-1 > .mn-link.is-active:before { bottom: 0; top: -5px; }
 .main-navigation .mn-item-lvl-1:nth-child(2) { margin-left: 0; }
 .main-navigation .mn-item-lvl-1:hover .mn-menu-submenu { -ms-transform: translateY(0); transform: translateY(0); opacity: 1; visibility: visible; transition: transform .3s .3s, opacity .3s .3s, visibility .3s .3s; }
@@ -1066,7 +1067,7 @@ body:not(.lp-univers) .quicklinks:not(.quicklinks-navigation) .ql-list li + li {
     Section Creativity
 \* ------------------------------------------------------------ */
 
-.section-creativity { position: relative; margin-bottom: 12px; text-align: center; z-index: 2; }
+.section-creativity { position: relative; margin-bottom: 12px; text-align: center; clear: both; z-index: 2; }
 
 .section-creativity h5 { font-size: 23px; line-height: 1.26; font-weight: 300; letter-spacing: 0.03em; margin: 0 0 18px; }
 .section-creativity h4 { font-size: 25px; line-height: 1.2; font-weight: 500; letter-spacing: 0.07em; text-transform: uppercase; margin: 0 -10px 24px; }
@@ -1744,7 +1745,7 @@ ul.content-list-bullet ul li:after { width: 6px; height: 1px; top: 10px; border-
 .tt-suggestion a {color: #1c294b; font-weight: 300; text-decoration: none!important; }
 .tt-dropdown-menu span.tt-suggest-text {text-decoration: none!important; }
 .tt-dropdown-menu .tt-dropdown-contents { padding: 0 17px; }
-.tt-dropdown-menu .tt-text-intro {	font-size: 10px; font-style: normal; letter-spacing: 0.7px; color: #8d9399; text-transform: uppercase; margin-right: 20px; }
+.tt-dropdown-menu .tt-text-intro {  font-size: 10px; font-style: normal; letter-spacing: 0.7px; color: #8d9399; text-transform: uppercase; margin-right: 20px; }
 .tt-dropdown-menu strong.tt-highlight {font-weight: bold; color: #1c294b;}
 .mod-catal .main-search .tt-dropdown-menu { left: 103px!important; }
 .tt-suggestion a:focus, .tt-suggestion a:hover { background-color: #fff7d5; color: #1c294b; padding-left: 15px; }
@@ -1761,7 +1762,7 @@ ul.content-list-bullet ul li:after { width: 6px; height: 1px; top: 10px; border-
 #zone2 .faq ol.faq-summary.js-sna-menu {padding: 0; border: 0; margin-bottom: 40px; }
 #zone2 .faq a.fc-item-link.js-sna-item-link {font-size: 25px; font-weight: 300; }
 #zone2 .faq i.icon.icon-plus {color: #6cc1bd; padding-bottom: 5px; }
-#zone2 .faq i.icon.icon-minus {	color: #6cc1bd; font-size: 4px; padding-bottom: 5px; padding-right: 5px; }
+#zone2 .faq i.icon.icon-minus { color: #6cc1bd; font-size: 4px; padding-bottom: 5px; padding-right: 5px; }
 #zone2 .faq .fc-item.js-sna-item {border: 0;  }
 #zone2 .faq .fc-item:nth-child(odd) { background: #f7f9fb; }
 #zone2 .faq a:hover i.icon.icon-plus, #zone2 .faq a:hover i.icon.icon-minus {color: #6cc1bd; }
@@ -1778,7 +1779,7 @@ ul.content-list-bullet ul li:after { width: 6px; height: 1px; top: 10px; border-
 #zone2 .faq h3 { letter-spacing: 0.05em; margin: 0; }
 
 /* ------------------------------------------------------------ *\
-	Catalogue 
+    Catalogue 
 \* ------------------------------------------------------------ */
 
 body.catalogue { background : transparent; }
