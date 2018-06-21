@@ -1872,7 +1872,8 @@ body.catalogue .edito.catalogue .mod-catal .inside {padding: 0 0 30px 0;}
 
 .catalogue .catal-results.mod-catal div.catal-results-selectboxes { margin-bottom: 40px; }
 
-.catalogue .catal-ex-item.is-top-premium { padding:60px 30px; }
+.catalogue .catal-ex-item.is-top-premium { padding:60px 30px; background-color: #fff; border: 4px solid #fed545; }
+.catalogue .catal-ex-item.is-top-premium .catal-ex-item-tag-premium { background-color: #fed545; color: #1c294b; font-weight: 400; letter-spacing: 0.07em; padding-bottom: 7px; }
 .catalogue .mod-catal .catal-ex-item-group-title,
 .catalogue .mod-catal .catal-prd-item-group-title { border : 0 none; margin : 0; }
 .catalogue .mod-catal .catal-ex-item-title,
@@ -1883,7 +1884,7 @@ body.catalogue .edito.catalogue .mod-catal .inside {padding: 0 0 30px 0;}
 .catalogue .mod-catal .catal-ex-item-title a:hover,
 .catalogue .mod-catal .catal-prd-item-title a:focus,
 .catalogue .mod-catal .catal-prd-item-title a:hover { color : #6cc1bd; text-decoration : none; }
-.is-premium .catal-ex-item-title a {color : #6cc1bd!important; }
+.is-premium .catal-ex-item-title a {font-weight: 700; color : #f95b21 !important;}
 .is-premium .catal-ex-item-title {font-size: 35px!important; }
 .catalogue .mod-catal .catal-ex-item-img,
 .catalogue .mod-catal .catal-prd-item-img { height : 200px; width : 200px; display: block; border-radius: 20px; box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07); line-height: 190px; text-align: center; background: #fff; }
@@ -2341,4 +2342,3 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
     div
 \* ------------------------------------------------------------ */
 .quicklinks-navigation .ql-item-link.is-active  { background: none; color: #1c294b; }
-#zone3 { display: none; }
