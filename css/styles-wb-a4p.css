@@ -308,7 +308,7 @@ dl { padding: 0; margin: 0; list-style-type: none; }
     Main Navigation
 \* ------------------------------------------------------------ */
 
-.main-navigation { padding: 0; margin-left: 378px; box-shadow: none; background: none; }
+.main-navigation { padding: 0; margin-left: 308px; box-shadow: none; background: none; }
 
 .main-navigation .mn-menu-line { display: block; border: 0; }
 .main-navigation .mn-item-lvl-1 .mn-link-text { margin: 0; }
@@ -1884,10 +1884,10 @@ body.catalogue .edito.catalogue .mod-catal .inside {padding: 0 0 30px 0;}
 .catalogue .mod-catal .catal-ex-item-title a:hover,
 .catalogue .mod-catal .catal-prd-item-title a:focus,
 .catalogue .mod-catal .catal-prd-item-title a:hover { color : #6cc1bd; text-decoration : none; }
-.is-premium .catal-ex-item-title a {font-weight: 700; color : #f95b21 !important;}
+.is-premium .catal-ex-item-title a { color : #fff !important; background-color:#6cc1bd ; padding: 4px 13px; margin-top: 17px; display: inline-block; }
 .is-premium .catal-ex-item-title {font-size: 35px!important; }
 .catalogue .mod-catal .catal-ex-item-img,
-.catalogue .mod-catal .catal-prd-item-img { height : 200px; width : 200px; display: block; border-radius: 20px; box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07); line-height: 190px; text-align: center; background: #fff; }
+.catalogue .mod-catal .catal-prd-item-img { height : 200px; width : 200px; display: block; border-radius: 20px; box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07); line-height: 190px; text-align: center; background: #fff; margin-right: 28px; }
 .catalogue .mod-catal .catal-ex-item-desc,
 .catalogue .mod-catal .catal-prd-item-desc { font-size : 16px; margin-right : 27%; }
 .catalogue .mod-catal .catal-ex-item-txt,
