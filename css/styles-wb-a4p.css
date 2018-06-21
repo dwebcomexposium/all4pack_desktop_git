@@ -1288,7 +1288,12 @@ body:not(.lp-univers) .quicklinks:not(.quicklinks-navigation) .ql-list li + li {
 .article-wrapper .table2 tr:first-child td:first-child { border: 0; }
 .article-wrapper .table2 td { vertical-align: middle; text-align: center; border: 1px solid #e4e7ec; }
 
+.article-wrapper .table3 tr { background: none!important; }
+
+
 p.important1 {display: inline-block; background-color:#fed545 ; padding: 7px 15px; margin-bottom: 10px; }
+
+
 
 
 /*contacts*/
