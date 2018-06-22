@@ -672,7 +672,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.lp-univers) .globa
 .cc-cookies .cc-cookie-accept,
 .btn--yellow,
 .quicklinks:not(.secteurs) .btn-primary, 
-.decouvrez .btn-primary, .faq a.fs-item-link, .survey .layout-2-col input.button, p.pl-item-read-more a, button.js-mySelection { display: inline-block; padding: 12px 30px 14px; border: 1px solid #feeeae; border-radius: 50px; vertical-align: middle; box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.33), 0 0 7px rgba(255, 210, 49, 0.63); font-size: 15px; font-weight: 400; letter-spacing: 0.07em; font-style: italic; color: #1c294b; text-decoration: none; text-transform: uppercase; background: none; transition: box-shadow .3s; }
+.decouvrez .btn-primary, .faq a.fs-item-link, .survey .layout-2-col input.button, p.pl-item-read-more a, .catalogue button.js-mySelection { display: inline-block; padding: 12px 30px 14px; border: 1px solid #feeeae; border-radius: 50px; vertical-align: middle; box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.33), 0 0 7px rgba(255, 210, 49, 0.63); font-size: 15px; font-weight: 400; letter-spacing: 0.07em; font-style: italic; color: #1c294b; text-decoration: none; text-transform: uppercase; background: none; transition: box-shadow .3s; }
 
 .lien1:after,
 .la-item .link-read-more:after,
@@ -686,7 +686,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.lp-univers) .globa
 .cc-cookies .cc-cookie-accept:hover,
 .btn--yellow:hover,
 .quicklinks:not(.secteurs) .btn-primary:hover,
-.decouvrez .btn-primary:hover, .faq a.fs-item-link:hover, .survey .layout-2-col input.button:hover, p.pl-item-read-more a:hover, button.js-mySelection:hover { box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.33), 0 0 15px rgba(255, 210, 49, 0.83); color: #1c294b; }
+.decouvrez .btn-primary:hover, .faq a.fs-item-link:hover, .survey .layout-2-col input.button:hover, p.pl-item-read-more a:hover, .catalogue button.js-mySelection:hover { box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.33), 0 0 15px rgba(255, 210, 49, 0.83); color: #1c294b; }
 
 .lien1:hover:after,
 .la-item .link-read-more:hover:after,
@@ -2302,8 +2302,8 @@ a.btn-primary.btn-medium {float: right; }
 .catalogue .mod-catal .btn-primary {color: #1c294b!important; }
 
 
-button.js-mySelection {background: none!important; padding: 15px 30px!important; text-transform: uppercase!important; }
-button.js-mySelection + a:hover { margin-left: 11px;  }
+.catalogue button.js-mySelection {background: none!important; padding: 15px 30px!important; text-transform: uppercase!important; }
+.catalogue button.js-mySelection + a:hover { margin-left: 11px;  }
 
 .catalogue .mod-catal .catal-ed-main .catal-ed-main-media  {margin: 0; }
 .block.block-page.edito.catalogue .mod-catal {padding: 0; }
