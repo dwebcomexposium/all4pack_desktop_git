@@ -2342,3 +2342,4 @@ a.btn-primary.btn-medium {float: right; }
     div
 \* ------------------------------------------------------------ */
 .quicklinks-navigation .ql-item-link.is-active  { background: none; color: #1c294b; }
+.focus-catal button.js-mySelection { display: none; }
