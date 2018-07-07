@@ -672,7 +672,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.lp-univers) .globa
 .cc-cookies .cc-cookie-accept,
 .btn--yellow,
 .quicklinks:not(.secteurs) .btn-primary, 
-.decouvrez .btn-primary, .faq a.fs-item-link, .survey .layout-2-col input.button, p.pl-item-read-more a, .catalogue button.js-mySelection { display: inline-block; padding: 12px 30px 14px; border: 1px solid #feeeae; border-radius: 50px; vertical-align: middle; box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.33), 0 0 7px rgba(255, 210, 49, 0.63); font-size: 15px; font-weight: 400; letter-spacing: 0.07em; font-style: italic; color: #1c294b; text-decoration: none; text-transform: uppercase; background: none; transition: box-shadow .3s; }
+.decouvrez .btn-primary, .faq a.fs-item-link, .survey .layout-2-col input.button, p.pl-item-read-more a, button.js-mySelection { display: inline-block; padding: 12px 30px 14px; border: 1px solid #feeeae; border-radius: 50px; vertical-align: middle; box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.33), 0 0 7px rgba(255, 210, 49, 0.63); font-size: 15px; font-weight: 400; letter-spacing: 0.07em; font-style: italic; color: #1c294b; text-decoration: none; text-transform: uppercase; background: none; transition: box-shadow .3s; }
 
 .lien1:after,
 .la-item .link-read-more:after,
@@ -686,7 +686,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.lp-univers) .globa
 .cc-cookies .cc-cookie-accept:hover,
 .btn--yellow:hover,
 .quicklinks:not(.secteurs) .btn-primary:hover,
-.decouvrez .btn-primary:hover, .faq a.fs-item-link:hover, .survey .layout-2-col input.button:hover, p.pl-item-read-more a:hover, .catalogue button.js-mySelection:hover { box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.33), 0 0 15px rgba(255, 210, 49, 0.83); color: #1c294b; }
+.decouvrez .btn-primary:hover, .faq a.fs-item-link:hover, .survey .layout-2-col input.button:hover, p.pl-item-read-more a:hover, button.js-mySelection:hover { box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.33), 0 0 15px rgba(255, 210, 49, 0.83); color: #1c294b; }
 
 .lien1:hover:after,
 .la-item .link-read-more:hover:after,
@@ -1606,35 +1606,35 @@ p.important1 {display: inline-block; background-color:#fed545 ; padding: 7px 15p
     List Articles
 \* ------------------------------------------------------------ */
 
-.lp-univers .list-articles,
+.page-rubric.lp-univers .list-articles,
 .content397298 .list-articles,
 .content396097 .list-articles { position: relative; padding-bottom: 36px; margin: 0 0 80px; text-align: center; }
 
-.lp-univers .la-main-title,
+.page-rubric.lp-univers .la-main-title,
 .content397298 .la-main-title,
 .content396097 .la-main-title { font-size: 33px; font-weight: 500; letter-spacing: 0.03em; text-transform: uppercase; }
 
-.lp-univers .main-title-with-link,
+.page-rubric.lp-univers .main-title-with-link,
 .content397298 .main-title-with-link,
 .content396097 .main-title-with-link { margin-bottom: 30px; }
 
-.lp-univers .list-articles .link-view-all,
+.page-rubric.lp-univers .list-articles .link-view-all,
 .content397298 .list-articles .link-view-all,
 .content396097 .list-articles .link-view-all { position: absolute; left: 50%; bottom: 0; -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 15px; font-style: italic; letter-spacing: 0.07em; color: #1c294b; text-transform: uppercase; }
 
-.lp-univers .list-articles .link-view-all:hover,
+.page-rubric.lp-univers .list-articles .link-view-all:hover,
 .content397298 .list-articles .link-view-all:hover,
 .content396097 .list-articles .link-view-all:hover { background: none; }
 
-.lp-univers .list-articles .link-view-all:hover i,
+.page-rubric.lp-univers .list-articles .link-view-all:hover i,
 .content397298 .list-articles .link-view-all:hover i,
 .content396097 .list-articles .link-view-all:hover i { -ms-transform: translateX(5px); transform: translateX(5px); }
 
-.lp-univers .list-articles .link-view-all i:before,
+.page-rubric.lp-univers .list-articles .link-view-all i:before,
 .content397298 .list-articles .link-view-all i:before,
 .content396097 .list-articles .link-view-all i:before { display: none; }
 
-.lp-univers .list-articles .link-view-all i,
+.page-rubric.lp-univers .list-articles .link-view-all i,
 .content397298 .list-articles .link-view-all i,
 .content396097 .list-articles .link-view-all i { position: relative; display: inline-block; width: 20px; height: 9px; top: -1px; vertical-align: middle; background-image: url(images/ico-arrow-right.svg); background-size: 100% 100%; transition: transform .3s; }
 
@@ -1679,7 +1679,7 @@ p.important1 {display: inline-block; background-color:#fed545 ; padding: 7px 15p
     LP Univers Breacrumbs Navigation
 \* ------------------------------------------------------------ */
 
-.lp-univers .breadcrumb-nav { position: absolute; left: 50%; padding: 0; -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 3; }
+.page-rubric.lp-univers .breadcrumb-nav { position: absolute; left: 50%; padding: 0; -ms-transform: translateX(-50%); transform: translateX(-50%); z-index: 3; }
 
 /* ------------------------------------------------------------ *\
     Section Packaging
@@ -1694,30 +1694,30 @@ p.important1 {display: inline-block; background-color:#fed545 ; padding: 7px 15p
     LP Univers Quicklinks
 \* ------------------------------------------------------------ */
 
-.lp-univers .quicklinks.cta { padding: 92px 0 96px; background: none; }
-.lp-univers .quicklinks.cta ul { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
-.lp-univers .quicklinks.cta li:last-child .btn-primary { border-color: #66c0bc; border-color: #66c0bc; box-shadow: inset 0 0 7px rgba(102, 192, 188, 0.43), 0 0 8px rgba(102, 192, 188, 0.83);}
-.lp-univers .quicklinks.cta li:last-child .btn-primary:hover { border-color: #66c0bc; box-shadow: inset 0 0 15px rgba(102, 192, 188, 0.63), 0 0 25px rgba(102, 192, 188, 0.83); }
-.lp-univers .quicklinks.cta .btn-primary { padding: 11px 48px 14px; border-radius: 0; -ms-transform: skew(-26deg); transform: skew(-26deg);  border: 1px solid #feeeae; box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.43), 0 0 8px rgba(255, 210, 49, 0.83);}
-.lp-univers .quicklinks.cta .btn-primary:hover { box-shadow: inset 0 0 15px rgba(255, 210, 49, 0.63), 0 0 25px rgba(255, 210, 49, 0.83);}
+.page-rubric.lp-univers .quicklinks.cta { padding: 92px 0 96px; background: none; }
+.page-rubric.lp-univers .quicklinks.cta ul { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
+.page-rubric.lp-univers .quicklinks.cta li:last-child .btn-primary { border-color: #66c0bc; border-color: #66c0bc; box-shadow: inset 0 0 7px rgba(102, 192, 188, 0.43), 0 0 8px rgba(102, 192, 188, 0.83);}
+.page-rubric.lp-univers .quicklinks.cta li:last-child .btn-primary:hover { border-color: #66c0bc; box-shadow: inset 0 0 15px rgba(102, 192, 188, 0.63), 0 0 25px rgba(102, 192, 188, 0.83); }
+.page-rubric.lp-univers .quicklinks.cta .btn-primary { padding: 11px 48px 14px; border-radius: 0; -ms-transform: skew(-26deg); transform: skew(-26deg);  border: 1px solid #feeeae; box-shadow: inset 0 0 7px rgba(255, 210, 49, 0.43), 0 0 8px rgba(255, 210, 49, 0.83);}
+.page-rubric.lp-univers .quicklinks.cta .btn-primary:hover { box-shadow: inset 0 0 15px rgba(255, 210, 49, 0.63), 0 0 25px rgba(255, 210, 49, 0.83);}
 
-.lp-univers .quicklinks.cta .btn-primary i { display: none; }
-.lp-univers .quicklinks.cta .btn-primary span { display: inline-block; vertical-align: middle; -ms-transform: skew(26deg); transform: skew(26deg); font-size: 29px; font-weight: 500; letter-spacing: 0.05em; font-style: italic; text-transform: none; }
-.lp-univers .quicklinks.cta .btn-primary:after { display: none; }
+.page-rubric.lp-univers .quicklinks.cta .btn-primary i { display: none; }
+.page-rubric.lp-univers .quicklinks.cta .btn-primary span { display: inline-block; vertical-align: middle; -ms-transform: skew(26deg); transform: skew(26deg); font-size: 29px; font-weight: 500; letter-spacing: 0.05em; font-style: italic; text-transform: none; }
+.page-rubric.lp-univers .quicklinks.cta .btn-primary:after { display: none; }
 
 /* ------------------------------------------------------------ *\
     LP Univers Univers links
 \* ------------------------------------------------------------ */
 
-.lp-univers .univers { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; margin-bottom: 75px; }
-.lp-univers .univers .ql-list { display: -ms-flexbox; display: flex; }
-.lp-univers .univers .ql-list a { padding: 2px 20px 5px; border: 0; border-radius: 0; box-shadow: none; -ms-transform: skewX(-26deg); transform: skewX(-26deg); font-size: 18px; font-weight: 500; letter-spacing: 0.03em; font-style: normal; background: #fcd139; }
-.lp-univers .univers .ql-list li + li { margin-left: 13px; }
-.lp-univers .univers .ql-list span { display: block; -ms-transform: skewX(26deg); transform: skewX(26deg);font-family: 'Neo Sans Pro', sans-serif !important; }
-.lp-univers .univers .block-title { margin-right: 40px; font-size: 22px; font-weight: 300; }
+.page-rubric.lp-univers .univers { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; margin-bottom: 75px; }
+.page-rubric.lp-univers .univers .ql-list { display: -ms-flexbox; display: flex; }
+.page-rubric.lp-univers .univers .ql-list a { padding: 2px 20px 5px; border: 0; border-radius: 0; box-shadow: none; -ms-transform: skewX(-26deg); transform: skewX(-26deg); font-size: 18px; font-weight: 500; letter-spacing: 0.03em; font-style: normal; background: #fcd139; }
+.page-rubric.lp-univers .univers .ql-list li + li { margin-left: 13px; }
+.page-rubric.lp-univers .univers .ql-list span { display: block; -ms-transform: skewX(26deg); transform: skewX(26deg);font-family: 'Neo Sans Pro', sans-serif !important; }
+.page-rubric.lp-univers .univers .block-title { margin-right: 40px; font-size: 22px; font-weight: 300; }
 
-.lp-univers .univers .ql-list i,
-.lp-univers .univers .ql-list a:after { display: none; }
+.page-rubric.lp-univers .univers .ql-list i,
+.page-rubric.lp-univers .univers .ql-list a:after { display: none; }
 
 /* ------------------------------------------------------------ *\
     Main title
@@ -2302,8 +2302,8 @@ a.btn-primary.btn-medium {float: right; }
 .catalogue .mod-catal .btn-primary {color: #1c294b!important; }
 
 
-.catalogue button.js-mySelection {background: none!important; padding: 15px 30px!important; text-transform: uppercase!important; }
-.catalogue button.js-mySelection + a:hover { margin-left: 11px;  }
+button.js-mySelection {background: none!important; padding: 15px 30px!important; text-transform: uppercase!important; }
+button.js-mySelection + a:hover { margin-left: 11px;  }
 
 .catalogue .mod-catal .catal-ed-main .catal-ed-main-media  {margin: 0; }
 .block.block-page.edito.catalogue .mod-catal {padding: 0; }
@@ -2336,10 +2336,9 @@ a.btn-primary.btn-medium {float: right; }
 .is-mac .list-tags li { height: 29px; padding-top: 2px; }
 .is-mac .socials .socials__tag { padding: 6px 11px 2px; text-align: center; }
 .is-mac .section-creativity .section__tag { line-height: 36px; }
-.is-mac.lp-univers .univers .ql-list a { padding: 4px 20px 3px; }
+.is-mac.page-rubric.lp-univers .univers .ql-list a { padding: 4px 20px 3px; }
 
 /* ------------------------------------------------------------ *\
     div
 \* ------------------------------------------------------------ */
 .quicklinks-navigation .ql-item-link.is-active  { background: none; color: #1c294b; }
-.focus-catal button.js-mySelection { display: none; }
