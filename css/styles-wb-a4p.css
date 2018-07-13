@@ -456,11 +456,12 @@ html[lang="fr"] .lang-switcher .ls-trigger:before { background-image: url(images
 .ico-chevrons-down { display: inline-block; width: 11px; height: 12px; background-image: url(images/ico-chevrons-down.png); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
 .ico-arrow-right { display: inline-block; width: 19px; height: 9px; background-image: url(images/ico-arrow-right.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
 .ico-envelope-alt { display: inline-block; width: 21px; height: 27px; background-image: url(images/ico-envelope-alt.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
-.ico-twitter-grey { display: inline-block; width: 19px; height: 15px; background-image: url(images/ico-twitter-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
-.ico-linkedin-grey { display: inline-block; width: 18px; height: 17px; background-image: url(images/ico-linkedin-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
-.ico-google-plus-grey { display: inline-block; width: 25px; height: 15px; background-image: url(images/ico-google-plus-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
-.ico-facebook-grey { display: inline-block; width: 7px; height: 14px; background-image: url(images/ico-facebook-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
-.ico-envelope-grey { display: inline-block; width: 23px; height: 18px; background-image: url(images/ico-envelope-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
+
+.ico-twitter-grey, .icon-twitter { display: inline-block; width: 19px; height: 15px; background-image: url(images/ico-twitter-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
+.ico-linkedin-grey, .icon-linkedin { display: inline-block; width: 18px; height: 17px; background-image: url(images/ico-linkedin-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
+.ico-google-plus-grey, .icon-google-plus { display: inline-block; width: 25px; height: 15px; background-image: url(images/ico-google-plus-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
+.ico-facebook-grey, .icon-facebook { display: inline-block; width: 9px; height: 20px; background-image: url(images/ico-facebook-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
+.ico-envelope-grey, .icon-email { display: inline-block; width: 23px; height: 18px; background-image: url(images/ico-envelope-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
 .ico-mouse-pointer { display: inline-block; width: 27px; height: 27px; background-image: url(images/ico-mouse-pointer.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
 .ico-building { display: inline-block; width: 40px; height: 48px; background-image: url(images/ico-building.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
 .ico-people { display: inline-block; width: 57px; height: 48px; background-image: url(images/ico-people.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
@@ -1349,6 +1350,8 @@ p.important1 {display: inline-block; background-color:#fed545 ; padding: 7px 15p
 .full .at-content .socials-primary { display: none; }
 
 .full .article-title .inside { display: block; }
+.full .at-content .inside {  display: -ms-flexbox; display: flex; }
+
 
 .full .article-title .container { max-width: 100vw; min-width: 1280px; width: 100vw; min-width: 1280px; left: 50%; -ms-transform: translateX(-50%); transform: translateX(-50%); border-radius: 0; }
 .full .article-title .container:before { width: 100%; height: 100%; top: 0; left: 0; right: auto; bottom: auto; border: 0; box-shadow: none; background: rgba(0, 0, 0, 0.4); }
@@ -1395,6 +1398,21 @@ p.important1 {display: inline-block; background-color:#fed545 ; padding: 7px 15p
 .socials-primary span { position: relative; top: -4px; margin-right: 15px; font-size: 15px; font-weight: 300; letter-spacing: 0.05em; color: #c2cace; }
 .socials-primary a { display: block; transition: opacity .3s; }
 .socials-primary a:hover { opacity: .7; }
+
+
+.at-content .social-sharing { padding: 0; margin: 0; border: 0; }
+
+.at-content .social-sharing { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding: 0 0 25px; }
+.at-content .social-sharing .sr-title { margin-right: 19px; font-size: 17px; font-weight: 300; letter-spacing: 0.05em; flex-basis: auto; color: #c2cace;}
+.at-content .social-sharing li { padding: 0; border: 0; margin: 0; }
+.at-content .social-sharing li + li { margin-left: 15px; }
+.at-content .social-sharing a { display: block; padding: 0; border: 0; transition: opacity .3s; }
+.at-content .social-sharing a:hover { opacity: .7; }
+.at-content .social-sharing i { display: inline-block; margin: 0; vertical-align: middle; background-size: 100% 100%; }
+.at-content .social-sharing i:before { display: none; }
+.at-content .social-sharing .sr-list { display: -ms-flexbox; display: flex; flex-basis: auto; }
+.at-content .social-sharing .sr-item-txt { display: none; }
+
 
 /* ------------------------------------------------------------ *\
     Cookies
@@ -2346,3 +2364,10 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
     div
 \* ------------------------------------------------------------ */
 .quicklinks-navigation .ql-item-link.is-active  { background: none; color: #1c294b; }
+
+
+/* ------------------------------------------------------------ *\
+    english
+\* ------------------------------------------------------------ */
+html[lang="en"] .stat { padding-left: 37px; }
+html[lang="en"] .lang-switcher .ls-trigger:before { background-image: url(images/ico-england.png); }
