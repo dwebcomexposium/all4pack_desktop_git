@@ -39,8 +39,9 @@ $wrappedItems.wrap('<div class="container"></div>');
 /*
  * Article
  */
-if ($('.socials-primary').length) {
-	$('.socials-primary').appendTo('.at-content');
+
+if ($('.social-sharing .social-sharing').length) {
+	$('.social-sharing .social-sharing').clone().appendTo('.at-content');
 }
 
 
@@ -214,7 +215,7 @@ $win
 	});
 
 /*
- * Pagination gla items
+ * Muation observer for gla items
  */
 if ($('.cxp-pagination').length) {
 	var observer = new MutationObserver(function() {
