@@ -2371,11 +2371,9 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
 \* ------------------------------------------------------------ */
 html[lang="en"] .stat { padding-left: 37px; }
 html[lang="en"] .lang-switcher .ls-trigger:before { background-image: url(images/ico-england.png); }
-html[lang="en"] .main-navigation .mn-menu > li + li { margin-left: 65px; }
+html[lang="en"] .mn-menu > li + li { margin-left: 65px; }
 @media(max-width: 1500px){
-    html[lang="en"] .main-navigation .mn-menu > li + li { margin-left: 47px; }
+    html[lang="en"] .mn-menu > li + li { margin-left: 47px; }
 }
 html[lang="en"] .visitez .nav-exposez .mn-menu > li:last-child { width:130px ; }
 html[lang="en"] .visitez .nav-exposez .mn-menu > li:last-child .mn-link {padding: 6px 10px 6px 30px;}
-
-
