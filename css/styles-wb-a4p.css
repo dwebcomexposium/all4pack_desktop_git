@@ -2375,5 +2375,12 @@ html[lang="en"] .mn-menu > li + li { margin-left: 65px; }
 @media(max-width: 1500px){
     html[lang="en"] .mn-menu > li + li { margin-left: 47px; }
 }
+html[lang="en"] .nav-exposez .mn-menu > li + li { margin-left: 40px; }
+@media(max-width: 1500px){
+    html[lang="en"] .nav-exposez .mn-menu > li + li { margin-left: 35px; }
+}
+
 html[lang="en"] .visitez .nav-exposez .mn-menu > li:last-child { width:130px ; }
 html[lang="en"] .visitez .nav-exposez .mn-menu > li:last-child .mn-link {padding: 6px 10px 6px 30px;}
+
+
