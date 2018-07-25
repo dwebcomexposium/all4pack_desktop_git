@@ -83,7 +83,7 @@ $('.js-count-to').each(function() {
 /*
  * Langues
  */
-$('.ls-lang-list').append('<li class="ls-lang-item ls-lang-de"><a href="#" class="ls-lang-link"></a></li><li class="ls-lang-item ls-lang-es"><a href="#" class="ls-lang-link"></a></li><li class="ls-lang-item ls-lang-it"><a href="#" class="ls-lang-link"></a></li>');
+$('.ls-lang-list').append('<li class="ls-lang-item ls-lang-de"><a href="https://www.all4pack.com/de/Verpackung-und-Handling" class="ls-lang-link"></a></li><li class="ls-lang-item ls-lang-es"><a href="https://www.all4pack.com/es/emballage-y-manipulacion" class="ls-lang-link"></a></li><li class="ls-lang-item ls-lang-it"><a href="https://www.all4pack.com/it/imballaggio-e-movimentazione" class="ls-lang-link"></a></li>');
 
 /*
  * Article shadow
