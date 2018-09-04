@@ -1304,12 +1304,14 @@ p.important1 {display: inline-block; background-color:#fed545 ; padding: 7px 15p
 /*contacts*/
 
 .article-wrapper .cl-item-title { text-transform: uppercase; font-weight: 400; font-size: 27px; color: #66c0bc; }
-.article-wrapper .cl-item { display: block; border: 0; padding-bottom: 10px; } 
+.article-wrapper .cl-item { display: flex; flex-wrap: wrap; border: 0; } 
 .article-wrapper .cl-item:before  { content: ''; display: block; width: 100%; height: 1px;  box-shadow: 0 0 7px rgba(255, 210, 49, 0.63); background: #feeeae; margin: 20px 0 40px 0; } 
-.article-wrapper .cl-item-illust { width: 180px; }
-.article-wrapper .cl-item-photo { width: 280px; border-radius: 50%; }
+.article-wrapper .cl-item-illust { width: auto; padding: 0; }
+.article-wrapper .cl-item-photo { width: auto; }
+.article-wrapper .cl-item-illust img { width: 180px; }
+.article-wrapper .cl-item-photo img { width: 200px; }
 .article-wrapper .cl-item-photo img { border-radius: 50%; }
-.article-wrapper .cl-item-content { padding: 0; }
+.article-wrapper .cl-item-content { padding: 0; float: right; width: 510px; }
 
 
 
@@ -2391,3 +2393,5 @@ html[lang="en"] .nav-exposez .mn-menu > li + li { margin-left: 40px; }
 
 html[lang="en"] .visitez .nav-exposez .mn-menu > li:last-child { width:130px ; }
 html[lang="en"] .visitez .nav-exposez .mn-menu > li:last-child .mn-link {padding: 6px 10px 6px 30px;}
+
+
