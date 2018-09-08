@@ -15,6 +15,18 @@ var newsletterPlaceholders = {
 $('body')
 	.toggleClass('is-mac', navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i) ? true : false)
 	.toggleClass('is-ie', navigator.userAgent.indexOf('MSIE ') > -1 || navigator.userAgent.indexOf('Trident/') > -1 ? true : false);
+	
+
+/*
+ * Link news
+ */
+if ($('html').attr('lang') == 'fr') {
+	$(".front .actualites a.link-view-all").attr("href", "https://www.all4pack.fr/Decouvrez-ALL4PACK/actualites-du-salon");
+
+} else {
+	$(".front .actualites a.link-view-all").attr("href", "https://www.all4pack.com/Discover-ALL4PACK/Exhibition-news");
+}
+	
 
 /*
  * Change newsletter placeholder
@@ -83,6 +95,7 @@ $('.js-count-to').each(function() {
 /*
  * Langues
  */
+
 $('.ls-lang-list').append('<li class="ls-lang-item ls-lang-de"><a href="https://www.all4pack.com/de/Verpackung-und-Handling" class="ls-lang-link"></a></li><li class="ls-lang-item ls-lang-es"><a href="https://www.all4pack.com/es/emballage-y-manipulacion" class="ls-lang-link"></a></li><li class="ls-lang-item ls-lang-it"><a href="https://www.all4pack.com/it/imballaggio-e-movimentazione" class="ls-lang-link"></a></li>');
 
 /*
