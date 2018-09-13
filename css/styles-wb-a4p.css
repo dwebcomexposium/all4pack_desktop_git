@@ -566,13 +566,22 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
 /*  Modifier: Intro Alt Primary */
 
 .intro-alt--primary { min-height: 1000px; }
-
 .intro-alt--primary h1 { margin-bottom: 47px; }
 .intro-alt--primary h2 { font-size: 40px; }
-
 .intro-alt--primary .list-tags { margin-bottom: 21px; }
 .intro-alt--primary .intro__content { width: 980px; padding-top: 150px; }
 .intro-alt--primary .intro__link-alt { padding-top: 56px; }
+
+
+/*Boutin badge home*/
+
+.intro-alt .intro__badge { position: absolute; left: 50%; top: -70px; -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 18px; font-style: italic; letter-spacing: 0.07em; color: #1c294b; text-transform: uppercase; text-decoration: none; margin-left: -5px; }
+.intro-alt .intro__badge:hover i { -ms-transform: translateX(7px); transform: translateX(7px); }
+.intro-alt .intro__badge i { transition: transform .3s; margin-right: 12px; margin-bottom: -5px; }
+
+
+
+
 
 /* ------------------------------------------------------------ *\
     Socials
@@ -1476,7 +1485,7 @@ p.important1 {display: inline-block; background-color:#fed545 ; padding: 7px 15p
 \* ------------------------------------------------------------ */
 
 .nav-exposez { position: relative; max-width: 1225px; width: 100%; height: 39px; /*top: 170px; */left: 50%; padding: 0 40px 0 20px; margin-left: 0; overflow: hidden; -ms-transform: translateX(-50%); transform: translateX(-50%); color: #fff; margin: 177px 0 54px;}
-.content396097 .nav-exposez, .content397298 .nav-exposez { position: absolute; margin-top: 0; top: 170px;}
+.content396097 .nav-exposez, .content397298 .nav-exposez { position: absolute; margin-top: 0; top: 170px; margin-left: 0; }
 
 .nav-exposez:before { content: ''; position: absolute; width: 0; height: 0; top: -2px; left: 0; border-style: solid; border-width: 0 0 41px 21px; border-color: transparent transparent #1c294b transparent; }
 
