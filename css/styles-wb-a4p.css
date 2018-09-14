@@ -580,7 +580,12 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
 .intro-alt .intro__badge i { transition: transform .3s; margin-right: 12px; margin-bottom: -5px; }
 
 
-
+@media (max-height: 810px) {
+   .intro-alt h1 { font-size: 27px;  margin: 0 0 20px; }
+   .intro-alt .intro__badge { top: -50px;  }
+   .intro-alt h2 {font-size: 27px;  margin: 0 0 15px; }
+   
+}
 
 
 /* ------------------------------------------------------------ *\
