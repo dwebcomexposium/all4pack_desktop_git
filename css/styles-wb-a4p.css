@@ -2452,6 +2452,8 @@ html[lang="en"] .nav-exposez .mn-menu > li + li { margin-left: 40px; }
 html[lang="en"] .visitez .nav-exposez .mn-menu > li:last-child { width:130px ; }
 html[lang="en"] .visitez .nav-exposez .mn-menu > li:last-child .mn-link {padding: 6px 10px 6px 30px;}
 
+html[lang="en"] #cxpmClientAccountWidget {right: 180px;}
+
 @media (max-width: 1400px) {
     
     .main-navigation { margin-left: 280px; }
