@@ -2389,7 +2389,7 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
 .page-events .catal-ex-item-stand-item p.date_event {font-style: normal!important; font-size: 14px; font-weight: 300; line-height: 1; color: #fff;  }
 .catal-nav-ex, .mod-catal.catal-nav-affix {display: none; }
 .page-events .slider { padding: 0; }
-.event-view-full .mod-catal h1 {text-align: left!important; }
+.event-view-full .mod-catal h1, .catal-ex-details .mod-catal h1 {text-align: left!important; }
 .mod-catal .btn-primary.ac-js-switcher-remote {background: none!important; }
 
 .event-type-li:before, .persons-event:before  {
@@ -2403,7 +2403,11 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
 }
-.catal-ed-main-session 
+
+.page-events .site-wrapper, .catalogue .site-wrapper  { max-width: 960px; }
+.mod-catal h2, .mod-catal .h2-like { border: 0; padding-top: 20px; padding-bottom: 0!important; }
+
+
 /* ------------------------------------------------------------ *\
     Mac Related
 \* ------------------------------------------------------------ */
@@ -2477,6 +2481,5 @@ html[lang="en"] #cxpmClientAccountWidget {right: 180px;}
 	.main-navigation .mn-menu > li + li { margin-left: 20px; }
 	.site-banner.is-fixed .main-navigation {margin: 0 auto;  }
 	.site-banner.is-fixed .main-navigation {margin-left:130px;  }
-	
 	
 }
