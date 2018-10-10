@@ -411,7 +411,7 @@ html[lang="fr"] .lang-switcher .ls-trigger:before { background-image: url(images
 .meta { position: absolute; display: -ms-flexbox; display: flex; top: 0; left: 50%; -ms-flex-align: center; align-items: center; padding: 7px 28px; -ms-transform: translateX(-50%); transform: translateX(-50%); letter-spacing: 0.07em; color: #fff; text-transform: uppercase; background: #6cc1bd; }
 
 .meta strong { margin-right: 15px; font-family: 'Neo Sans Pro', sans-serif !important; font-size: 17px; }
-.meta span { margin-right: 5px; font-size: 11px; width: 38px; line-height: 1;margin-top: -2px; }
+.meta span { margin-right: 5px; font-size: 11px; width: 38px; line-height: 1; margin-top: -2px; }
 
 .meta p { font-size: 13px; line-height: 1; font-weight: 500; letter-spacing: 0.17em; }
 .meta p i { position: relative; top: 2px; margin-right: 12px; }
@@ -2478,6 +2478,9 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
     english
 \* ------------------------------------------------------------ */
 html[lang="en"] .stat { padding-left: 37px; }
+
+html[lang="en"]  .meta span { width: 50px; }
+
 html[lang="en"] .lang-switcher .ls-trigger:before { background-image: url(images/ico-england.png); }
 html[lang="en"] .mn-menu > li + li { margin-left: 65px; }
 @media (max-width: 1500px) {
