@@ -903,7 +903,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
     Decouvrir Exposants
 \* ------------------------------------------------------------ */
 
-.focus-catal .mod-catal:not(.catal-produit) { position: relative; display: -ms-flexbox; display: flex; -ms-flex-flow: row wrap; flex-flow: row wrap; margin: 0 -25px; }
+.focus-catal .mod-catal:not(.catal-produit) { position: relative; display: -ms-flexbox; display: flex; -ms-flex-flow: row wrap; flex-flow: row wrap; margin: 0 -25px; justify-content: center; }
 .focus-catal .mod-catal:not(.catal-produit):before { content: ''; position: absolute; width: 100vw; min-width: 1280px; height: 100%; top: 0; left: 50%; -ms-transform: translateX(-50%); transform: translateX(-50%); background: #f7f9fb; }
 .focus-catal .mod-catal:not(.catal-produit) > * { position: relative; z-index: 2; }
 
@@ -930,7 +930,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
 
 .focus-catal .edito.mod-catal { position: relative; display: block; width: 100vw; min-width: 1280px; left: 50%; padding: 33px 0 40px; -ms-transform: translateX(-50%); transform: translateX(-50%); }
 .focus-catal .edito.mod-catal ~ .edito.mod-catal { padding: 0; }
-.focus-catal .edito.mod-catal h2 { font-size: 35px; font-weight: 500; letter-spacing: 0.03em; color: #1c294b; text-align: center; text-transform: uppercase; padding: 0; margin: 0; border: 0; }
+.focus-catal .edito.mod-catal h2 { font-size: 35px; font-weight: 500; letter-spacing: 0.03em; color: #1c294b; text-align: center; text-transform: uppercase; padding: 30px 0 20px!important; margin: 0; border: 0; }
 
 
 /* ------------------------------------------------------------ *\
@@ -1951,8 +1951,9 @@ body.catalogue .edito.mod-catal .inside {padding: 0 0 30px 0;}
 .mod-catal .catal-prd-item-title a:hover { color : #6cc1bd; text-decoration : none; }
 .is-premium .catal-ex-item-title a { color : #fff !important; background-color:#6cc1bd ; padding: 4px 13px; margin-top: 17px; display: inline-block; }
 .is-premium .catal-ex-item-title {font-size: 35px!important; }
-.mod-catal .catal-ex-item-img,
-.mod-catal .catal-prd-item-img, .mod-catal .catal-ex-item-img { height : 200px; width : 200px; display: block; border-radius: 20px; box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07); line-height: 190px; text-align: center; background: #fff; margin-right: 28px; }
+body:not(.front) .mod-catal .catal-ex-item-img,
+body:not(.front) .mod-catal .catal-prd-item-img, body:not(.front) .mod-catal .catal-ex-item-img { height : 200px; width : 200px; display: block; border-radius: 20px; box-shadow: 
+.mod-catal .catal-ex-item-desc,0 5px 20px 0px rgba(0, 0, 0, 0.07); line-height: 190px; text-align: center; background: #fff; margin-right: 28px; }
 .mod-catal .catal-ex-item-desc,
 .mod-catal .catal-prd-item-desc { font-size : 16px; margin-right : 27%; }
 .mod-catal .catal-ex-item-txt,
