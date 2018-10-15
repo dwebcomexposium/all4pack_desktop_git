@@ -554,8 +554,8 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
 .intro-alt .intro__link img { display: block; margin: 0 auto 7px; }
 
 
-.intro-alt .intro__scroll { position: absolute; width: 40px; height: 40px; bottom: -62px; padding-top: 64px; margin-left: -100px; text-align: center; }
-.intro-alt .intro__scroll img { display: block;}
+.intro-alt .intro__scroll { width: 40px; height: 40px; text-align: center; margin: 50px auto 0; display: block; }
+.intro-alt .intro__scroll img { display: block; margin: 0 auto; }
 
 .intro-alt .intro__link-outer { position: absolute; top: 50%; right: calc(100% + 35px); -ms-transform: translateY(-50%); transform: translateY(-50%); font-size: 20px; font-weight: 500; white-space: nowrap; pointer-events: none; }
 .intro-alt .intro__link-outer--right { left: calc(100% + 35px); right: auto; }
