@@ -909,8 +909,8 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
 
 .focus-catal .mod-catal:not(.catal-produit) > .catal-ex-item { display: block; max-width: 20%; -ms-flex: 0 0 20%; flex: 0 0 20%; padding: 0 25px; border: 0; }
 .focus-catal .mod-catal:not(.catal-produit) > .catal-ex-item .catal-ex-item-img { width: 100%; }
-.focus-catal .mod-catal:not(.catal-produit) > .catal-ex-item .catal-ex-item-img a { display: block; height: 178px; border-radius: 20px; box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07); line-height: 178px; text-align: center; background: #fff; }
-.focus-catal .mod-catal:not(.catal-produit) > .catal-ex-item .catal-ex-item-img a:hover img { -ms-transform: scale(1.05); transform: scale(1.05); opacity: 1; filter: initial; }
+.focus-catal .mod-catal:not(.catal-produit) > .catal-ex-item .catal-ex-item-img a { display: block; height: 208px; border-radius: 20px; box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07); line-height: 178px; text-align: center; background: #fff; }
+.focus-catal .mod-catal:not(.catal-produit) > .catal-ex-item .catal-ex-item-img a:hover img { -ms-transform: scale(1.15); transform: scale(1.15); opacity: 1; filter: initial; }
 .focus-catal .mod-catal:not(.catal-produit) > .catal-ex-item .catal-ex-item-img img { max-width: 80%; transition: transform .3s; }
 .focus-catal .mod-catal:not(.catal-produit) > .catal-ex-item .catal-ex-item-content { position: absolute; bottom: 0; left: 0; pointer-events: none; }
 .focus-catal .mod-catal:not(.catal-produit) > .catal-ex-item .catal-ex-item-stand-item { position: absolute; height: 25px; left: 50%; bottom: 15px; padding: 0 10px; margin: 0; -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 12px; font-weight: 500; line-height: 25px; letter-spacing: 0.03em; color: #1c294b; text-transform: uppercase; background: #fcd139; }
