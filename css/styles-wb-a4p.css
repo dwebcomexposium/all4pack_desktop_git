@@ -646,7 +646,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
     Account Widget
 \* ------------------------------------------------------------ */
 
-#cxpmClientAccountWidget { position: absolute; top: 0; right: 205px; padding-top: 4px; z-index: 6; }
+#cxpmClientAccountWidget { position: absolute!important; top: 0; right: 205px; padding-top: 4px; z-index: 6; }
 
 #cxpmClientAccountWidget .widget-my-selection { position: relative; top: -2px; }
 #cxpmClientAccountWidget .widget-my-selection .number { position: relative; display: block !important; width: 14px !important; height: 14px !important; top: 0; left: 20px; padding-top: 2px; border-radius: 50%; font-size: 10px !important; line-height: 1; font-weight: 500; color: #fff; text-align: center; background: #1c294b !important; }
@@ -803,7 +803,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
     Actualites
 \* ------------------------------------------------------------ */
 
-.actualites { position: relative; max-width: 1170px; padding-bottom: 69px; margin: 0 auto 69px; }
+.actualites { position: relative; max-width: 1170px; padding-bottom: 69px; margin: 0 auto 69px; padding-top: 50px; }
 
 .actualites .main-title { text-align: center; font-size: 33px; font-weight: 500; letter-spacing: 0.03em; }
 .actualites .main-title-with-link { margin-bottom: 35px; }
@@ -975,7 +975,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
     Section Videos
 \* ------------------------------------------------------------ */
 
-.section-videos { max-width: 1170px; padding: 50px 0; margin: 0 auto 20px; text-align: center; }
+.section-videos { max-width: 1170px; padding: 10px 0; margin: 0 auto 20px; text-align: center; }
 
 .section-videos h3 { font-size: 33px; font-weight: 500; letter-spacing: 0.03em; text-transform: uppercase; margin: 0 0 25px; }
 
