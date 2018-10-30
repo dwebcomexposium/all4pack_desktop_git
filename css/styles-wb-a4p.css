@@ -1014,7 +1014,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
     Quicklinks
 \* ------------------------------------------------------------ */
 
-body:not(.lp-univers) .quicklinks:not(.quicklinks-navigation):not(.secteurs):not(.decouvrez) { position: relative; width: 100vw; min-width: 1280px; left: 50%; padding: 20px 0 66px; -ms-transform: translateX(-50%); transform: translateX(-50%); background: #f7f9fb; }
+body:not(.lp-univers):not(.catalogue) .quicklinks:not(.quicklinks-navigation):not(.secteurs):not(.decouvrez) { position: relative; width: 100vw; min-width: 1280px; left: 50%; padding: 20px 0 66px; -ms-transform: translateX(-50%); transform: translateX(-50%); background: #f7f9fb; }
 
 body:not(.lp-univers) .quicklinks:not(.quicklinks-navigation) .ql-list { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
 body:not(.lp-univers) .quicklinks:not(.quicklinks-navigation) .ql-list li + li { margin-left: 31px; }
@@ -2397,7 +2397,7 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
 \* ------------------------------------------------------------ */
 .page-events .catal-ex-item-stand-item {background-color: #1c294b; margin: 10px 0; padding: 7px 14px; }
 .page-events .catal-ex-item-stand-item p.date_event {font-style: normal!important; font-size: 14px; font-weight: 300; line-height: 1; color: #fff;  }
-.catal-nav-ex, .mod-catal.catal-nav-affix {display: none; }
+/*.catal-nav-ex, .mod-catal.catal-nav-affix {display: none; }*/
 .page-events .slider { padding: 0; display: flex; justify-content: center; padding: 20px 0; }
 .page-events .slider .la-item-img { border-radius: 20px; }
 .event-view-full .mod-catal h1, .catal-ex-details .mod-catal h1 {text-align: left!important; }
@@ -2430,6 +2430,16 @@ button.js-mySelection + a:hover { margin-left: 11px;  }
 
 
 .place_event { display: inline-block; font-weight: 700; font-size: 20px; margin:10px 0 10px 10px; padding-bottom: 20px; }
+
+
+/*nav catalogue*/
+.mod-catal.catal-nav-ex .btn-medium {background: none!important;  }
+.mod-catal.catal-nav-ex .btn-medium:hover {padding-top: 0!important; }
+.mod-catal.catal-nav-ex .catal-nav-ex-link {margin-right: 20px!important; margin-left: 20px!important; }
+
+.mod-catal .catal-ed-main .catal-ed-main-stand-ref .icon-catal { color: #fcd139; }
+
+.catal-nav-affix, .page-events .catal-nav-ex { display: none; }
 
 
 /* ------------------------------------------------------------ *\
