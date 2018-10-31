@@ -547,6 +547,8 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
 .intro-alt .intro__group { position: absolute; bottom: 0; right: 0; overflow: hidden; z-index: 3; }
 .intro-alt .intro__group img { position: relative; }
 .intro-alt .intro__group img:last-child { position: absolute; bottom: 0; left: 20px; }
+.intro-alt .intro__group img:first-child { left: 50px; }
+
 
 .intro-alt .intro__link { position: absolute; width: 200px; height: 200px; left: 50%; bottom: -32px; padding-top: 64px; margin-left: -100px; border-radius: 50%; box-shadow: 0 0 46px rgba(252, 209, 57, 0.28); text-align: center; background: #fff; transition: box-shadow .3s; z-index: 4; -webkit-animation: float 4s ease-in-out infinite;animation: float 4s ease-in-out infinite;}
 .intro-alt .intro__link:before { content: ''; position: absolute; width: 170px; height: 170px; top: 50%; left: 50%; margin: -85px 0 0 -85px; border: 1px solid #fcd139; border-radius: 50%; box-shadow: inset 0 0 46px rgba(252, 209, 57, 0.28), 0 0 46px rgba(252, 209, 57, 0.28); }
