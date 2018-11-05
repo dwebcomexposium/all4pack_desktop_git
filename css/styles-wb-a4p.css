@@ -275,7 +275,7 @@ dl { padding: 0; margin: 0; list-style-type: none; }
     Newsletter form
 \* ------------------------------------------------------------ */
 
-.newsletter-form { display: block !important; max-width: 400px; text-align: center; }
+.newsletter-form { display: block; max-width: 400px; text-align: center; }
 
 .newsletter-form form { position: relative; }
 .newsletter-form form p { font-size: 25px; line-height: 1.2; font-weight: 500; letter-spacing: 0.07em; color: #1c294b; text-transform: uppercase; }
