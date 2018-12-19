@@ -479,6 +479,8 @@ html[lang="fr"] .lang-switcher .ls-trigger:before { background-image: url(images
 .ico-arrow-left-grey { display: inline-block; width: 40px; height: 18px; background-image: url(images/ico-arrow-left-grey.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
 .ico-card-list { display: inline-block; width: 38px; height: 27px; background-image: url(images/ico-card-list.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
 .ico-arrow-up { display: inline-block; width: 10px; height: 10px; background-image: url(images/ico-arrow-up.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
+.ico-press { display: inline-block; width: 32px; height: 39px; background-image: url(images/ico-press.svg); background-size: 100% 100%; font-size: 0; line-height: 0; text-indent: -4004px; }
+
 
 /* ------------------------------------------------------------ *\
     Page Background
@@ -592,7 +594,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
 
 .intro-alt .intro__badge { position: absolute; left: 50%; top: -70px; -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 18px; font-style: italic; letter-spacing: 0.07em; color: #1c294b; text-transform: uppercase; text-decoration: none; margin-left: -5px; }
 .intro-alt .intro__badge:hover i { -ms-transform: translateX(7px); transform: translateX(7px); }
-.intro-alt .intro__badge i { transition: transform .3s; margin-right: 12px; margin-bottom: -5px; }
+.intro-alt .intro__badge i { transition: transform .3s; margin-right: 12px; margin-bottom: -12px; }
 
 
 @media (max-height: 810px) {
@@ -2532,6 +2534,3 @@ html[lang="en"] #cxpmClientAccountWidget {right: 180px;}
 	.site-banner.is-fixed .main-navigation {margin-left:130px;  }
 	
 }
-
-
-.mod-catal .esf-tree.esf-only-one-lvl li { display: block!important; }
