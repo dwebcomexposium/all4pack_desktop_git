@@ -592,7 +592,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
 
 /*Boutin badge home*/
 
-.intro-alt .intro__badge { position: absolute; left: 50%; top: -70px; -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 18px; font-style: italic; letter-spacing: 0.07em; color: #1c294b; text-transform: uppercase; text-decoration: none; margin-left: -5px; }
+.intro-alt .intro__badge { position: absolute; left: 50%; top: -70px; -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 18px; font-style: italic; letter-spacing: 0.07em; color: #1c294b; text-transform: uppercase; text-decoration: none; margin-left: -5px; width: 100%; }
 .intro-alt .intro__badge:hover i { -ms-transform: translateX(7px); transform: translateX(7px); }
 .intro-alt .intro__badge i { transition: transform .3s; margin-right: 12px; margin-bottom: -12px; }
 
@@ -2534,3 +2534,5 @@ html[lang="en"] #cxpmClientAccountWidget {right: 180px;}
 	.site-banner.is-fixed .main-navigation {margin-left:130px;  }
 	
 }
+
+
