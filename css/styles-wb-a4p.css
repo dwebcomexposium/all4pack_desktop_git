@@ -1,4 +1,4 @@
-
+ 
 /* ------------------------------------------------------------ *\
     Fonts
 \* ------------------------------------------------------------ */
@@ -919,7 +919,7 @@ body:not(.front):not(.content396097):not(.content397298):not(.page-rubric) .glob
 
 .list-articles.connexe .la-item .la-item-title { line-height: .7; margin-bottom: 10px; text-align: center; color:  #1c294b}
 .list-articles.connexe .la-item .la-item-title a { font-size: 21px; line-height: .7; font-weight: 300; letter-spacing: 0.04em; text-transform: uppercase; color:  #1c294b }
-.list-articles.connexe .la-item .la-item-title a i.icon, .list-articles.connexe .la-item .la-item-title a:before { display: none;  }
+.list-articles.connexe .la-item .la-item-title a i.icon, .list-articles.connexe .la-item .la-item-title a:before, .list-articles.connexe .container, .list-articles.connexe img { display: none;  }
 
 .list-articles.connexe .la-item .la-item-title a {
   text-shadow:
